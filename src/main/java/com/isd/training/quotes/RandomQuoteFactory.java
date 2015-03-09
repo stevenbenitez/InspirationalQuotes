@@ -41,9 +41,8 @@ public abstract class RandomQuoteFactory implements QuoteFactory {
      */
     @Override
     public String getQuote() {
-        // select a random number between 0 and the size of the list (minus 1,
-        // since the index starts at 0).
-        int index = random.nextInt(quotes.size() - 1);
+        // select a random number between 0 and the size of the list.
+        int index = random.nextInt(quotes.size());
         return quotes.get(index);
     }
 }
