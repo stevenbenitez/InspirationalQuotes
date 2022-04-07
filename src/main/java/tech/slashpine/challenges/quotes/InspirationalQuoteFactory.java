@@ -1,4 +1,4 @@
-package com.isd.training.quotes;
+package tech.slashpine.challenges.quotes;
 
 import java.util.ArrayList;
 import java.util.List;

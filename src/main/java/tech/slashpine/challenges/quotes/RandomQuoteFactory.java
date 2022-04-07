@@ -1,4 +1,4 @@
-package com.isd.training.quotes;
+package tech.slashpine.challenges.quotes;
 
 import java.util.List;
 import java.util.Random;
@@ -36,8 +36,6 @@ public abstract class RandomQuoteFactory implements QuoteFactory {
 
     /**
      * Returns a random quote.
-     *
-     * @return A random quote.
      */
     @Override
     public String getQuote() {

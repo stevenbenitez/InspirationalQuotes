@@ -1,4 +1,4 @@
-package com.isd.training.quotes;
+package tech.slashpine.challenges.quotes;
 
 /**
  * A factory for obtaining quotes.
